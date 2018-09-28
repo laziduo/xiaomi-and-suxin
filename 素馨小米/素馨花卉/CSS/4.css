@@ -1,0 +1,21 @@
+
+@import url(index.css);
+.nav-right>ul>li:nth-child(7) a {
+	color: #62a8ea;
+}
+.nav-right>ul>li:nth-child(1) a {
+	color: #fff;
+}
+.bannertwo,.bannertwo img {
+	width: 100%;
+	height: 462px;
+}
+#twop {
+	margin-top: 70px;
+}
+.about {
+	padding-bottom: 70px;
+}
+.about-contain img {
+	margin-top: 20px;
+}

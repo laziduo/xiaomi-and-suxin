@@ -1,0 +1,83 @@
+
+@import url(1.css);
+@import url(index.css);
+#nav-right-two a {
+	color: #2a333c;
+}
+#nav-right-two>ul>li:nth-child(5) a {
+	color: #62a8ea;
+}
+.huayi {
+	margin: 80px auto 20px;
+	width: 100%;
+	height: 546px;
+	border-bottom: 1px solid #f0f2f5;
+	
+}
+.huayi li{
+	width: 634px;
+	height: 506px;
+	background: pink;
+	float: left;
+	list-style: none;
+	overflow: hidden;
+	position: relative;
+}
+.huayi li img ,.huayi li div {
+	width: 634px;
+	height: 506px;
+}
+.huayi li div {
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	color: rgba(255,255,255,0.7);
+}
+/*.huayi li div:hover {
+	background: rgba(0,0,0,0.5);
+	transition: all 2s;
+}*/
+.huayi li:hover div{
+	background: rgba(0,0,0,0.5);
+	color: rgba(255,255,255,1);
+}
+.huayi li:hover button {
+	color: rgba(255,255,255,1);
+	border-color: rgba(255,255,255,1);
+}
+.huayi li:hover img {
+	transform: scale(1.1,1.1);
+	transition: all 1s;
+}
+.huayi li div p{
+	margin-top: 180px;
+}
+.huayi li div p:nth-child(2) {
+	margin-top: 10px;
+}
+.huayi li div h1 {
+	margin-top: 5px;
+	font-weight: 400;
+	font-size: 24px;
+}
+.huayi li div button {
+	width: 58px;
+	height: 34px;
+	background: none;
+	border: 1px solid rgba(255,255,255,0.7);
+	margin-top: 20px;
+	font-size: 16px;
+	color: rgba(255,255,255,0.7);
+}
+.less {
+	width: 100%;
+	height: 20px;
+	border-top:1px solid #f0f2f5;
+	margin-top: 464px;
+	
+}
+#fotone {
+	margin-top: 0px;
+}

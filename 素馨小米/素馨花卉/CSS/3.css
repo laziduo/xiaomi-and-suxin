@@ -1,0 +1,164 @@
+@import url(1.css);
+@import url(index.css);
+@import url(2.css);
+#navthree {
+	background: #fff;
+	border-bottom: 1px solid #d9d9d9;
+}
+#nav-right-three a {
+	color: #2a333c;
+}
+#nav-right-three>ul>li:nth-child(6) a {
+	color: #62a8ea;
+}
+.talk {
+	width: 100%;
+	height: auto;
+	background: #f1f1f1;
+	margin-top: 0;
+	padding:40px 0 0;
+}
+.talk h1 {
+	font-size: 36px;
+	font-weight: 400;
+	color: #F67A82;
+	margin: 80px 0 70px;
+	text-align: center;
+}
+.talk-contain {
+	width: 1310px;
+	height: 930px;
+	margin: 0 auto;
+/*	background: red;*/
+}
+.talk-left {
+	width: 873px;
+	/*height: 900px;*/
+	padding: 30px;
+	box-sizing: border-box;
+	float: left;
+	background: #fff;
+}
+.talk-left li {
+	width: 814px;
+	height: 79px;
+	padding: 10px 0;
+	box-sizing: border-box;
+	list-style: none;
+	border-bottom: 1px solid #f0f2f5;
+	position: relative;
+}
+.talk-left li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: rgb(245,245,245);
+	text-align: center;;
+	line-height: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-decoration: none;
+	border-radius: 50%;
+
+}
+.talk-left ul li .touxiang {
+	margin-right: 10px;
+	float: left;
+}
+.talk-left ul li .touxiang .icon-touxiang{
+	font-size: 36px;
+	color: #a3afb7;
+}
+.talk-left ul li .wenzi {
+	float: left;
+	font-size: 14px;
+	color: #37474f;
+	
+}
+.talk-left ul li .wenzi p {
+	margin-bottom: 10px;
+}
+.talk-left ul li .wenzi p:nth-child(2) {
+	color: #76838f;
+}
+.talk-left ul li .data {
+	float: right;
+	color: #a3afb7;
+	font-size: 75%;
+	font-weight: 300;
+}
+.loging {
+	display: block;
+	width: 813px;
+	height: 36px;
+	padding: 6px 15px;
+	box-sizing: border-box;
+	background: #e4eaec;
+	text-align: center;
+	margin-top: 20px;
+	color: #76838f;
+}
+.talk-right {
+	width: 407px;
+	height: 430px;
+	float: right;
+	box-sizing: border-box;
+	padding: 30px;
+	background: #fff;
+	color: #76838f;
+	font-size: 14px;
+}
+.talk-right input {
+	display: block;
+	width: 347px;
+	height: 36px;
+	padding: 6px 15px;
+	box-sizing: border-box;
+	border: 1px solid #f0f2f5;
+	margin-bottom: 20px;
+	color: #76838f;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.talk-right textarea {
+	width: 347px;
+	height: 124px;
+	padding: 6px 15px;
+	box-sizing: border-box;
+	border: 1px solid #f0f2f5;
+	margin-bottom: 20px;
+	color: #76838f;
+	border-radius: 4px;
+	/*禁止缩放*/
+	resize: none;
+
+}
+input::-webkit-input-placeholder {
+	color:#A3AFB7;
+}
+#inputone {
+	width: 237px;
+	display: inline-block;
+}
+#inputtwo {
+	width: 110px;
+	display: inline-block;
+	float: right;
+}
+#inputthree {
+	background: #62a8ea;
+	color: #fff;
+}
+.less {
+	margin-top: 0;
+}
+.text {
+	width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #444;
+}
+.text span {
+	color: red;
+}
